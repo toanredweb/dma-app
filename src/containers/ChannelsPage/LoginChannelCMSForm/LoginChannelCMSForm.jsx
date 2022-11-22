@@ -96,7 +96,7 @@ class LoginChannelCMSForm extends Component {
     return (
       <Suspense fallback={<div>Loading...</div>}>
         {renderingGroupFieldHandler(formSetting, this.props.validator)}
-        <a href="#">Document-link </a>
+        <a>Document-link </a>
       </Suspense>
     );
   }
