@@ -47,6 +47,7 @@ class UpdateGeneralViewModel {
       this.callbackOnSuccessHandler,
       this.callbackOnErrorHandler
     );
+  console.log(this.updateGeneralViewModel.formPropsData);
   };
 
   callbackOnErrorHandler = (error) => {
