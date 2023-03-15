@@ -139,7 +139,7 @@ const ContentFormDescriptionMedia = observer(({ formPropsData, channel = null })
                 </button>
               </DamComponent>
             </div>
-            <div className="me-2 mt-1 mb-1">
+            <div className="me-2 mt-1 mb-1 chatgpt">
               <button
                 className="wr_btn_dam border-0 rounded-2 px-2 text-nowrap canva-btn-size-m chatgpt-btn"
                 type="button"
@@ -157,6 +157,7 @@ const ContentFormDescriptionMedia = observer(({ formPropsData, channel = null })
                 </div>
               </button>
               <ModalComponent
+                dialogClassName="chatgpt"
                 show={show}
                 onHide={handleClose}
                 header={<h3 className="fw-bold title-chatgpt">ChatGPT</h3>}
